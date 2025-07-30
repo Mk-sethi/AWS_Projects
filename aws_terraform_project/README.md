@@ -13,7 +13,7 @@ you should see output like
 `aws configure`
 
 - create a file named provider.tf write provider configuration
-  ```hcl
+```hcl
   terraform {
   required_providers {
     aws = {
@@ -27,6 +27,4 @@ provider "aws" {
   region = "us-east-1"
 }
 ```
-
-  
 
